@@ -1,0 +1,12 @@
+.tile{
+    background-color: var(--tile-background-color);
+    border-radius: 10px;
+    border: var(--tile-border-color) 1px solid;
+    width: 100%;
+    height: 100%;
+}
+
+.tile:hover{
+    border: var(--tile-border-hover-color) 2px solid;
+    transition: border 0.1s ease-in-out;
+}
