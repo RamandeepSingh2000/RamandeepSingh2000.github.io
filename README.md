@@ -1,54 +1,99 @@
-# React + TypeScript + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern portfolio website built with **Vite**, **React**, and **TypeScript**.  
+It showcases my work, blogs, hobbies, and more in a clean and organized way.
 
-Currently, two official plugins are available:
+## 📸 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- Replace this with a screenshot of your project -->
+![Demo Screenshot](![image](https://github.com/user-attachments/assets/9f2df107-2c54-4dc1-9281-0959bae8c438))
 
-## Expanding the ESLint configuration
+## 🧩 Sections
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Welcome** — Greeting section.
+- **About Me** — A short bio and personal introduction.
+- **Contact** — How to reach out.
+- **Blogs** — Articles and posts I've written.
+- **Playground** — Experiments and small projects.
+- **Works** — Showcases of my professional and personal projects.
+- **Hobbies** — Things I enjoy outside of work.
+- **Status** — Current availability.
+- **Countries Visited** — A fun list of places I’ve traveled to.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🛠️ Tech Stack
+
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## 📄 Environment Variables
+
+This project requires a `.env` file based on the provided `.env.example`.
+
+Example:
+
+```
+VITE_NAME=Your Name
+VITE_EMAIL=your.email@example.com
+VITE_GITHUB_LINK=https://github.com/yourusername
+VITE_LINKEDIN_LINK=https://www.linkedin.com/in/yourprofile
+VITE_DISCORD_LINK=https://discordapp.com/users/yourdiscordid
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**Note:**  
+Do **not** commit your actual `.env` file to version control!
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Getting Started
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
+
+3. **Set up environment variables**
+
+   Create a `.env` file in the root folder and fill it based on `.env.example`.
+
+4. **Run the development server**
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+   Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+5. **Build for production**
+
+   ```bash
+   npm run build
+   # or
+   yarn build
+   ```
+
+6. **Preview the production build**
+
+   ```bash
+   npm run preview
+   # or
+   yarn preview
+   ```
+
+## 📦 Deployment
+
+You can deploy the production build (`dist/`) to any static hosting service you like.
+
+## 📃 License
+
+This project is open source and available under the [MIT License](LICENSE).
