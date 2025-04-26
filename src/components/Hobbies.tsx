@@ -1,4 +1,4 @@
-import styles from "../../styles/Hobbies.module.css";
+//import styles from "../../styles/Hobbies.module.css";
 export default function Hobbies() {
   return (
     <div>

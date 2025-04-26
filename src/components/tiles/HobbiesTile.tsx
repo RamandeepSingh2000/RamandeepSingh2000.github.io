@@ -1,5 +1,5 @@
-import styles from "../../styles/tiles/HobbiesTile.module.css";
-import NavigationTile from "./NavigationTile";
+//import styles from "../../styles/tiles/HobbiesTile.module.css";
+//import NavigationTile from "./NavigationTile";
 import Tile from "./Tile";
 import WorkInProgress from "./WorkInProgress";
 

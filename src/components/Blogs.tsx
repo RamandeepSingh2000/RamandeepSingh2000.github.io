@@ -1,4 +1,4 @@
-import styles from "../styles/Blogs.module.css";
+//import styles from "../styles/Blogs.module.css";
 export default function Blogs() {
   return (
     <div>

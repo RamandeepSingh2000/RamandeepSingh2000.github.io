@@ -1,5 +1,5 @@
 import Tile from "./Tile";
-import styles from "../../styles/tiles/WorksTile.module.css";
+//import styles from "../../styles/tiles/WorksTile.module.css";
 import WorkInProgress from "./WorkInProgress";
 
 export default function WorksTile() {
