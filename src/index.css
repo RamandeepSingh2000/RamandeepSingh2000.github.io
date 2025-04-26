@@ -1,20 +1,53 @@
-:root{
-  --line-color: 	#4d4d4d;
+:root {
+  --line-color: #4d4d4d;
   --line-gap: 80px;
   --background-color: #1e1e1e;
   --background-fade-color: #000000;
 
   --tile-background-color: #1e1e1e;
   --tile-border-color: #4d4d4d;
-  --tile-border-hover-color: #ef6b00;
 
+  --default-text-color: #cfcfcf;
+  --default-text-bold-color: #fafafa;
+  --default-heading-color: #4d4d4d;
 
-  background: linear-gradient(0deg, var(--background-fade-color), transparent) no-repeat 0 0 / 100% 100%,
-              linear-gradient(90deg, var(--line-color) 1px, transparent 1px) 0 0 / var(--line-gap) var(--line-gap),
-              linear-gradient(var(--line-color) 1px, transparent 1px) 0 0 / var(--line-gap) var(--line-gap),              
-              var(--background-color);
+  --theme-color: #ef6b00;
+
+  background: linear-gradient(0deg, var(--background-fade-color), transparent)
+      no-repeat 0 0 / 100% 100%,
+    linear-gradient(90deg, var(--line-color) 1px, transparent 1px) 0 0 /
+      var(--line-gap) var(--line-gap),
+    linear-gradient(var(--line-color) 1px, transparent 1px) 0 0 /
+      var(--line-gap) var(--line-gap),
+    var(--background-color);
 }
 
-html{
+html {
   min-height: 100vh;
+  color: var(--default-text-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--default-heading-color);
+  font-weight: lighter;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: bold;
+  color: var(--default-text-bold-color);
 }

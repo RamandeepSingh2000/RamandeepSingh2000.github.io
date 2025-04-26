@@ -1,0 +1,22 @@
+.container h3 {
+  font-weight: bolder;
+  color: var(--default-text-color);
+  margin-bottom: 20px;
+}
+
+.container h4 {
+  margin-bottom: 2px;
+}
+
+.contactDetails {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.container a {
+  display: block;
+  color: var(--default-text-color);
+  text-decoration: none;
+  width: 70px;
+  padding: 5px 0;
+}

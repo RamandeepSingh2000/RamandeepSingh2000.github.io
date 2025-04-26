@@ -1,10 +1,12 @@
+import NavigationTile from "./NavigationTile";
 import Tile from "./Tile";
-import styles from '../../styles/tiles/BlogsTile.module.css';
+import WorkInProgress from "./WorkInProgress";
 
 export default function BlogsTile() {
-    return (
-        <Tile>
-            <h6>Blogs</h6>
-        </Tile>
-    );
+  //return <NavigationTile title="Blogs" route="/blogs" />;
+  return (
+    <Tile>
+      <WorkInProgress title="Blogs" />
+    </Tile>
+  );
 }

@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.container h2 {
+  font-weight: bolder;
+  line-height: 0.5rem;
+  margin: 0;
+  color: var(--default-text-color);
+}
+.container img {
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  height: 70px;
+}
+
+.container img:hover {
+  transform-origin: 50% 0%;
+  animation: tilt 1s ease-in-out;
+}
+
+@keyframes tilt {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

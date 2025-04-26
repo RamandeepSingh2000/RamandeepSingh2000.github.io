@@ -1,10 +1,11 @@
 import Tile from "./Tile";
-import styles from '../../styles/tiles/WorksTile.module.css';
+import styles from "../../styles/tiles/WorksTile.module.css";
+import WorkInProgress from "./WorkInProgress";
 
 export default function WorksTile() {
-    return (
-        <Tile>
-            <h6>Works</h6>
-        </Tile>
-    );
+  return (
+    <Tile>
+      <WorkInProgress title="Works" />
+    </Tile>
+  );
 }

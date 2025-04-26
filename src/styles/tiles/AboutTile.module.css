@@ -1,0 +1,21 @@
+.container {
+  min-width: 240px;
+}
+
+.container p,
+li {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+.container li {
+  list-style: square;
+}
+
+.container p strong {
+  color: var(--theme-color);
+}
+
+.container p strong.name {
+  color: var(--default-text-bold-color);
+}

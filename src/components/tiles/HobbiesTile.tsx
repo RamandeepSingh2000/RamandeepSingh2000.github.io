@@ -1,10 +1,13 @@
+import styles from "../../styles/tiles/HobbiesTile.module.css";
+import NavigationTile from "./NavigationTile";
 import Tile from "./Tile";
-import styles from '../../styles/tiles/HobbiesTile.module.css';
+import WorkInProgress from "./WorkInProgress";
 
 export default function HobbiesTile() {
-    return (
-        <Tile>
-            <h6>Hobbies</h6>
-        </Tile>
-    );
+  //return <NavigationTile title="Hobbies" route="/hobbies" />;
+  return (
+    <Tile>
+      <WorkInProgress title="Hobbies" />
+    </Tile>
+  );
 }

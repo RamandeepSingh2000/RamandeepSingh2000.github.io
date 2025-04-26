@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  gap: 5px;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.color:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: all 0.2s ease-in-out;
+}
