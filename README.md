@@ -5,8 +5,7 @@ It showcases my work, blogs, hobbies, and more in a clean and organized way.
 
 ## 📸 Demo
 
-<!-- Replace this with a screenshot of your project -->
-![Demo Screenshot](![image](https://github.com/user-attachments/assets/9f2df107-2c54-4dc1-9281-0959bae8c438))
+![Demo Screenshot](https://github.com/user-attachments/assets/9f2df107-2c54-4dc1-9281-0959bae8c438)
 
 ## 🧩 Sections
 
