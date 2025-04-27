@@ -1,12 +1,5 @@
-//import NavigationTile from "./NavigationTile";
-import Tile from "./Tile";
-import WorkInProgress from "./WorkInProgress";
+import NavigationTile from "./NavigationTile";
 
 export default function BlogsTile() {
-  //return <NavigationTile title="Blogs" route="/blogs" />;
-  return (
-    <Tile>
-      <WorkInProgress title="Blogs" />
-    </Tile>
-  );
+  return <NavigationTile title="Blogs" route="/blogs" />;
 }

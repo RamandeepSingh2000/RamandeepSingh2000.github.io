@@ -1,4 +1,5 @@
 import "./App.css";
+import Blog from "./components/Blog";
 import Blogs from "./components/Blogs";
 import CountriesVisited from "./components/CountriesVisited";
 import Hobbies from "./components/Hobbies";
@@ -13,6 +14,7 @@ function App() {
           <Route path="/hobbies" element={<Hobbies />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/countries-visited" element={<CountriesVisited />} />
+          <Route path="/blogs/:id" element={<Blog />} />
         </Routes>
       </Router>
     </>

@@ -1,0 +1,20 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog h1 {
+  color: var(--default-text-color);
+  font-weight: bolder;
+}
+
+.date {
+  color: var(--default-heading-color);
+  font-weight: bold;
+}
+
+.content {
+  color: var(--default-text-color);
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
