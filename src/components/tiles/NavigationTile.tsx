@@ -19,7 +19,7 @@ export default function NavigationTile({ title, route }: NavigationProps) {
     >
       <div className={styles.container}>
         <h2>{title}</h2>
-        <img src="./nav-arrow.png" />
+        <img src="./graphic/others/nav-arrow.png" />
       </div>
     </div>
   );

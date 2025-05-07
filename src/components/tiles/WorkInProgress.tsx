@@ -8,7 +8,7 @@ export default function WorkInProgress({ title }: WorkInProgressProps) {
   return (
     <div className={styles.container}>
       <h2>{title}</h2>
-      <img src="./wip.png" />
+      <img src="./graphic/others/wip.png" />
     </div>
   );
 }

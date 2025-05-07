@@ -43,15 +43,15 @@
 }
 
 .githubIcon {
-  mask-image: url("/github-mark-white.svg");
+  mask-image: url("./graphic/social-icons/github-mark-white.svg");
 }
 
 .linkedInIcon {
-  mask-image: url("/linkedin.svg");
+  mask-image: url("./graphic/social-icons/linkedin.svg");
 }
 
 .discordIcon {
-  mask-image: url("/discord.svg");
+  mask-image: url("./graphic/social-icons/discord.svg");
 }
 
 .quote {

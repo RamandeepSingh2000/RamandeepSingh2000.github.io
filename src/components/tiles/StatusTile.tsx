@@ -21,7 +21,7 @@ export default function StatusTile() {
           </p>
         </div>
         <div className={styles.graphic}>
-          <img src="./coffee-guy.gif" />
+          <img src="./graphic/others/coffee-guy.gif" />
         </div>
       </div>
     </Tile>

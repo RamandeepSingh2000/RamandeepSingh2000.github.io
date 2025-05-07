@@ -39,7 +39,7 @@ export default function WelcomeTile() {
         <div className={styles.rightSection}>
           <div className={styles.graphic}>
             <div className={styles.light} />
-            <img src="./meditate-avatar.png" />
+            <img src="./graphic/others/meditate-avatar.png" />
           </div>
         </div>
       </div>
