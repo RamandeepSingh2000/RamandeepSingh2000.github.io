@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styles from "../../styles/hobbies/HobbyGraphic.module.css";
 
 type HobbyGraphicProps = {
