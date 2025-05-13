@@ -1,0 +1,28 @@
+.socialButton {
+  background-color: black;
+  height: 45px;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--theme-color);
+  border-radius: 10px;
+  box-shadow: 2px 2px var(--theme-color);
+}
+.socialButton:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+.socialButton div {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+
+  mask-repeat: no-repeat;
+  mask-position: 0 0;
+  mask-size: 100% 100%;
+}
+.socialButton:hover div {
+  background-color: var(--theme-color);
+}

@@ -1,11 +1,6 @@
-import Tile from "./Tile";
+import NavigationTile from "./NavigationTile";
 //import styles from "../../styles/tiles/WorksTile.module.css";
-import WorkInProgress from "./WorkInProgress";
 
 export default function WorksTile() {
-  return (
-    <Tile>
-      <WorkInProgress title="Works" />
-    </Tile>
-  );
+  return <NavigationTile title="Works" route="/works" />;
 }

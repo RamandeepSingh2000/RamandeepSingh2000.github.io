@@ -13,46 +13,6 @@
   gap: 10px;
   align-items: end;
 }
-.socials button {
-  background-color: black;
-  height: 45px;
-  width: 65px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid var(--theme-color);
-  border-radius: 10px;
-  box-shadow: 2px 2px var(--theme-color);
-}
-.socials button:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-  transition: all 0.2s ease-in-out;
-}
-.socials button div {
-  width: 20px;
-  height: 20px;
-  background-color: white;
-
-  mask-repeat: no-repeat;
-  mask-position: 0 0;
-  mask-size: 100% 100%;
-}
-.socials button:hover div {
-  background-color: var(--theme-color);
-}
-
-.githubIcon {
-  mask-image: url("/graphic/social-icons/github-mark-white.svg");
-}
-
-.linkedInIcon {
-  mask-image: url("/graphic/social-icons/linkedin.svg");
-}
-
-.discordIcon {
-  mask-image: url("/graphic/social-icons/discord.svg");
-}
 
 .quote {
   margin: 30px 0;

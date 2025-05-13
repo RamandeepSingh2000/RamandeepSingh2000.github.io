@@ -1,0 +1,118 @@
+[
+  {
+    "title": "AI-Powered Babylon.js Micro-App",
+    "text": "A modern web application built with React and Babylon.js, using a microfrontends architecture for modular UI and microservices powered by Apollo GraphQL. It includes AI-driven chat support, real-time data handling, and interactive components like player progress tracking and a leaderboard system.",
+    "imageURLs": ["./graphic/works/babylon-car-game/SS_1.png"],
+    "links": [
+      {
+        "platform": "gitHub",
+        "url": "https://github.com/RamandeepSingh2000/CarGameWebApp"
+      }
+    ]
+  },
+  {
+    "title": "Magic Mastery",
+    "text": "A simple rogue-like adventure game. Harvest enemies and upgrade skills as you play. The final boss has a crazy HP and takes a while to beat.\n\nAdd equipment to your character.... that doesn't actually do anything.\nSelect a new skill or upgrade an existing one.\nToo lazy to upgrade skills? Just play Godmode and focus on harvesting.",
+    "youtubeEmbedSrc": "https://www.youtube.com/embed/3Ckhkj1HJ_s?si=KvBSFWHf-PVJO01w",
+    "imageURLs": [
+      "./graphic/works/magic-mastery/equipment.png",
+      "./graphic/works/magic-mastery/skill-selection.png",
+      "./graphic/works/magic-mastery/godmode.png"
+    ],
+    "links": [
+      {
+        "platform": "gitHub",
+        "url": "https://github.com/RamandeepSingh2000/MagicMastery"
+      },
+      {
+        "platform": "itchio",
+        "url": "https://ramandeep-singh.itch.io/magic-mastery"
+      }
+    ]
+  },
+  {
+    "title": "The Guardian",
+    "text": "A short RPG game where you play as a guardian who prevents the dead from entering the world of the living.\n\nThe dead souls possess inanimate objects such as mannequins and lanterns. Destroying them only slows them down because another soul repossesses those objects. You must close the dimentional gates from which those sould are entering in order to stop them. Good luck Guardian.",
+    "youtubeEmbedSrc": "https://www.youtube.com/embed/eieprb3Gtfs?si=n40tOxUf0aO8HrvM",
+    "imageURLs": [
+      "./graphic/works/the-guardian/SS_1.png",
+      "./graphic/works/the-guardian/SS_2.png",
+      "./graphic/works/the-guardian/SS_3.png",
+      "./graphic/works/the-guardian/SS_4.png"
+    ],
+    "links": [
+      {
+        "platform": "gitHub",
+        "url": "https://github.com/RamandeepSingh2000/TheGuardian"
+      },
+      {
+        "platform": "itchio",
+        "url": "https://ramandeep-singh.itch.io/the-guardian"
+      }
+    ]
+  },
+  {
+    "title": "Sub-In-Titan",
+    "text": "A short underwater story-driven adventure game.\n\nTravel the ocean with your submersible and chase an urban legend. Fight monster fishes and find out what lies at the bottom of the Mariana Trench.",
+    "youtubeEmbedSrc": "https://www.youtube.com/embed/auT4AUb4sBE?si=RJNEQMxizxSZcf65",
+    "imageURLs": [
+      "./graphic/works/sub-in-titan/SS_1.png",
+      "./graphic/works/sub-in-titan/SS_2.png",
+      "./graphic/works/sub-in-titan/SS_3.png",
+      "./graphic/works/sub-in-titan/SS_4.png"
+    ],
+    "links": [
+      {
+        "platform": "gitHub",
+        "url": "https://github.com/RamandeepSingh2000/Sub-In-Titan-2D"
+      },
+      {
+        "platform": "itchio",
+        "url": "https://ramandeep-singh.itch.io/sub-in-titan-2d"
+      }
+    ]
+  },
+  {
+    "title": "Rat-Escape",
+    "text": "A small puzzle platformer created using Unreal Engine.\n\nYou play as a lab rat whose intelligence is being tested. Touch all the tiles only once in order to move to the next round. Beware of the rats that might land on a tile and mess up your order. Shoot them down.",
+    "youtubeEmbedSrc": "https://www.youtube.com/embed/GZqEHYVkT-c?si=BBe_Nwft_z519v4J",
+    "imageURLs": [
+      "./graphic/works/rat-escape/SS_1.png",
+      "./graphic/works/rat-escape/SS_2.png",
+      "./graphic/works/rat-escape/SS_3.png"
+    ],
+    "links": [
+      {
+        "platform": "gitHub",
+        "url": "https://github.com/RamandeepSingh2000/Rat-Escape-Unreal"
+      },
+      {
+        "platform": "itchio",
+        "url": "https://ramandeep-singh.itch.io/rat-escape"
+      }
+    ]
+  },
+  {
+    "title": "Cryptography Game",
+    "text": "A small cryptography game that requires you to solve ciphers. An employee that was recently fired from an amusement park decided to lock the rides before leaving. But he was nice enough to leave behind the unlock codes - only that they are encrypted.\n\nIn this game, you solve three puzzles based on Caesar Cipher, Grid Cipher and Morse Code.",
+    "youtubeEmbedSrc": "https://www.youtube.com/embed/9OjfniL0whw?si=-_WZBDU-A2EKvxgh",
+    "imageURLs": [
+      "./graphic/works/cryptography-game/SS_1.png",
+      "./graphic/works/cryptography-game/SS_2.png",
+      "./graphic/works/cryptography-game/SS_3.png",
+      "./graphic/works/cryptography-game/SS_4.png",
+      "./graphic/works/cryptography-game/SS_5.png",
+      "./graphic/works/cryptography-game/SS_6.png"
+    ],
+    "links": [
+      {
+        "platform": "gitHub",
+        "url": "https://github.com/RamandeepSingh2000/CryptographyGame"
+      },
+      {
+        "platform": "itchio",
+        "url": "https://ramandeep-singh.itch.io/cryptography-game"
+      }
+    ]
+  }
+]

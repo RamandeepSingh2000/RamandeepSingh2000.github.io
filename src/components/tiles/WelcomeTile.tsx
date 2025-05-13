@@ -1,5 +1,7 @@
 import Tile from "./Tile";
 import styles from "../../styles/tiles/WelcomeTile.module.css";
+import SocialButtonLink from "../SocialButtonLink";
+import icons from "../../constants/icons";
 
 const { VITE_NAME, VITE_GITHUB_LINK, VITE_LINKEDIN_LINK, VITE_DISCORD_LINK } =
   import.meta.env;
@@ -19,21 +21,15 @@ export default function WelcomeTile() {
             the two is elegance.”
           </p>
           <div className={styles.socials}>
-            <button
-              onClick={() => window.open(`${VITE_GITHUB_LINK}`, "_blank")}
-            >
-              <div className={styles.githubIcon} />
-            </button>
-            <button
-              onClick={() => window.open(`${VITE_LINKEDIN_LINK}`, "_blank")}
-            >
-              <div className={styles.linkedInIcon} />
-            </button>
-            <button
-              onClick={() => window.open(`${VITE_DISCORD_LINK}`, "_blank")}
-            >
-              <div className={styles.discordIcon} />
-            </button>
+            <SocialButtonLink link={VITE_GITHUB_LINK} iconURL={icons.gitHub} />
+            <SocialButtonLink
+              link={VITE_LINKEDIN_LINK}
+              iconURL={icons.linkedIn}
+            />
+            <SocialButtonLink
+              link={VITE_DISCORD_LINK}
+              iconURL={icons.discord}
+            />
           </div>
         </div>
         <div className={styles.rightSection}>

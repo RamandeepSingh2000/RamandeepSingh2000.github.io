@@ -4,10 +4,10 @@
   flex-wrap: wrap;
   gap: 10px;
 }
-.imageContainer {
+.graphicContainer {
   --s: 30px; /* size of the corners */
   height: 200px;
-  width: 200px;
+  aspect-ratio: 16 / 9;
   margin-top: 20px;
   box-sizing: border-box;
   display: flex;
@@ -15,8 +15,19 @@
   justify-content: center;
 }
 
-.imageContainer img {
+.graphicContainer img {
   height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid var(--theme-color);
+  mask: conic-gradient(#000 0 0) content-box,
+    conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 /
+      calc(100% - var(--s)) calc(100% - var(--s));
+}
+
+.graphicContainer iframe {
+  height: 100%;
+  width: 100%;
   border-radius: 10px;
   border: 3px solid var(--theme-color);
   mask: conic-gradient(#000 0 0) content-box,
