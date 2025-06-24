@@ -1,6 +1,5 @@
 import styles from "../../styles/works/WorkGraphics.module.css";
 import Image from "../Image";
-import ImagePlaceholder from "../ImagePlaceholder";
 
 type WorkGraphicsProps = {
   youtubeEmbedSrc?: string;
