@@ -1,4 +1,6 @@
 import styles from "../../styles/works/WorkGraphics.module.css";
+import Image from "../Image";
+import ImagePlaceholder from "../ImagePlaceholder";
 
 type WorkGraphicsProps = {
   youtubeEmbedSrc?: string;
@@ -23,7 +25,7 @@ export default function WorkGraphics({
       )}
       {graphicURLs.map((url, index) => (
         <div key={index} className={styles.graphicContainer}>
-          <img src={url} />
+          <Image src={url} />
         </div>
       ))}
     </div>

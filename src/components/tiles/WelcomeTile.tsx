@@ -2,6 +2,7 @@ import Tile from "./Tile";
 import styles from "../../styles/tiles/WelcomeTile.module.css";
 import SocialButtonLink from "../SocialButtonLink";
 import icons from "../../constants/icons";
+import Image from "../Image";
 
 const { VITE_NAME, VITE_GITHUB_LINK, VITE_LINKEDIN_LINK, VITE_DISCORD_LINK } =
   import.meta.env;
@@ -35,7 +36,13 @@ export default function WelcomeTile() {
         <div className={styles.rightSection}>
           <div className={styles.graphic}>
             <div className={styles.light} />
-            <img src="./graphic/others/meditate-avatar.png" />
+            <Image
+              src="./graphic/others/meditate-avatar.png"
+              LODSources={[
+                "./graphic/others/meditate-avatar-100.png",
+                "./graphic/others/meditate-avatar-256.png",
+              ]}
+            />
           </div>
         </div>
       </div>
