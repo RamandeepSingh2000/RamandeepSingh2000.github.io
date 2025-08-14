@@ -1,5 +1,19 @@
 [
   {
+    "title": "Sloth-Chan",
+    "text": "Sloth-Chan is a desktop productivity companion — part application usage tracker, part sarcastic virtual pet.\nIt watches which applications you use and for how long (all data stored locally to maintain privacy), then lets you check your history in a clean React-based UI.\nMeanwhile, Sloth-Chan — your always-on-top, side-of-screen companion — will make playful, sarcastic comments about your work habits.\nTech stack used: Electron + React + TypeScript + Vite + Tailwind CSS + SQLite",
+    "imageURLs": [
+      "./graphic/works/sloth-chan/SS_1.png",
+      "./graphic/works/sloth-chan/SS_2.png"
+    ],
+    "links": [
+      {
+        "platform": "gitHub",
+        "url": "https://github.com/RamandeepSingh2000/sloth-chan"
+      }
+    ]
+  },
+  {
     "title": "AI-Powered Babylon.js Micro-App",
     "text": "A modern web application built with React and Babylon.js, using a microfrontends architecture for modular UI and microservices powered by Apollo GraphQL. It includes AI-driven chat support, real-time data handling, and interactive components like player progress tracking and a leaderboard system.",
     "imageURLs": ["./graphic/works/babylon-car-game/SS_1.png"],
